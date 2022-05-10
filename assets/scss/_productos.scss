@@ -1,0 +1,14 @@
+.productos{
+    background-color: $colorPrimario;
+    color: $colorLetra;
+    button{
+        border: 0;
+        padding: 10px 30px;
+        border: 5px white ;
+        border-radius: 8px;
+        color: $colorLetra;
+        &:hover{
+            background-color: $colorSecundario;
+        }
+    }
+}
