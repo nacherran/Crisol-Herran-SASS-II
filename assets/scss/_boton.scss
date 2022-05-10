@@ -1,0 +1,9 @@
+.boton{
+    border: map-get($boton , border );
+    padding: map-get($boton , padding );
+    border-radius: map-get($boton , border-radius );
+    color: map-get($boton , color );
+    &:hover{
+        background-color: $colorSecundario;
+    }
+}

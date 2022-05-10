@@ -1,53 +1,21 @@
 footer {
   background-color: chocolate;
-
-
 }
 
-.navbar{
-    background-color: #050 !important;
+.productos {
+  background-color: green;
+  color: white;
 }
-.navegacion{
-    grid-area: nav;
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+
+.boton {
+  border: 0;
+  padding: 8px 25px;
+  border-radius: 8px;
+  color: black;
 }
-.navegacion ul{
-    list-style: none;
-    width: 140px;
-    display: flex;
-    justify-content: space-around;
-}
-.navegacion ul li{
-    display: inline-block;
-    padding-right: 5px;
-}
-.encabezado{
-    grid-area: header;
-    background-color: #072;
-}
-.principal{
-    grid-area: main;
-    background-color: #094;
-    padding: 10px;
-}
-.productos img{
-    flex-direction: row;
-    transition: all 3s;
-}
-.img:hover{
-    transform: rotate(360deg);
-}
-.secundario{
-    grid-area: aside;
-    background-color: #1c7;
-}
-.pie{
-    grid-area: footer;
-    background-color: chocolate;
->>>>>>> 6c3619e96ced3f19572f6cbb077d54886599b191
+
+.boton:hover {
+  background-color: rgba(0, 128, 0, 0.849);
 }
 
 body {
