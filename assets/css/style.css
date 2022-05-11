@@ -1,21 +1,36 @@
-footer {
-  background-color: chocolate;
-}
-
 .productos {
   background-color: green;
-  color: white;
+  color: black;
 }
 
-.boton {
+.botones {
+  margin: 10px;
+}
+
+.boton, .boton-lista {
   border: 0;
   padding: 8px 25px;
   border-radius: 8px;
   color: black;
 }
 
-.boton:hover {
+.boton:hover, .boton-lista:hover {
   background-color: rgba(0, 128, 0, 0.849);
+}
+
+.boton-lista {
+  background-color: white;
+  color: black;
+  width: auto;
+  height: auto;
+}
+
+.boton-lista:hover {
+  background-color: rgba(0, 128, 0, 0.849);
+}
+
+footer {
+  background-color: chocolate;
 }
 
 body {
@@ -30,12 +45,12 @@ body .container-fluid {
   font-size: 20px;
 }
 
-h2 {
-  font-size: 24px;
-}
-
 h1 {
   font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
 }
 
 h3 {
